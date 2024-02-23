@@ -5,7 +5,9 @@ from tqdm import tqdm
 from translate import Translator
 from langdetect import detect
 
-# Designed by: Jad Oubala, Will Kaminski & Sam Bradley
+# Designed by: Jad Oubala
+# Language functionality by: Will Kaminski
+# Software testing by: Sam Bradley
 
 # Function to download PDF from a user-inputted URL
 # Uses the urllib.request.urlretrieve function to fetch the PDF from the url and
@@ -179,7 +181,7 @@ def translate_from_english(text, target_lang, max_length=500):
 # GPT Integration:
 from openai import OpenAI
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='insert_your_key_here')
 
 
 # Takes the semantically searched chunks as input and generates a response using
