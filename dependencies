@@ -1,0 +1,7 @@
+!pip install pymupdf
+!pip install -U sentence-transformers
+!pip install faiss-cpu
+!pip install openai
+!pip install --upgrade openai
+!pip install translate
+!pip install langdetect
