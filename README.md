@@ -7,6 +7,15 @@ Language functionality by Will Kaminski
 
 Testing by Sam Bradley
 
+**HOW TO USE:**
+In order to interact with the model, please engage with the following instructions:
+
+First run the dependencies which contains the necessary to install libraries.
+(Depending on interface used, download a PDF and copy its file path).
+Proceed to **line 80** and fill the filepath in (ensure it is within single quotes): file_path = '____'
+After this, proceed to **line 231**, where you may ask any question (in english or any other language) and fill it in between the double quotes. user_query = "____"
+Then run the kernal involving the main code, and see Lil' Dewey's response to your prompt (and it's detected language)!
+
 **What it does:**
 Anyone in secondary education knows the struggle of massive textbooks and compounding this issue is the difficulty experienced by students who may use english as a second language. DeweyBot is an embedded model that specializes in the capabilities offered by the OpenAI API and GPT-4 to be quickly trained on any given corpus of text and then answer specific user queries in coherent, concise and content-specific responses that cite page numbers and sections accordingly. Furthermore, in recognition of the difficulty many students who may speak english as a second language face, DeweyBot is able to leverage an internal translational model that can take in queries in over 183 languages, and then produce responses in that same detected language while still based on the original given english text. This could be invaluable for, say, a spanish-speaking student learning a biology textbook in English, but feels she could best formulate the question in her native tongue in order to understand a given concept.
 
