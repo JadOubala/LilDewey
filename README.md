@@ -1,8 +1,10 @@
 # LilDewey
 Forgot a detail in a huge textbook or need concise answers from complex papers? LilDewey, your chatbot assistant, quickly finds info in an English text PDF that you provide, and can respond to and answer questions in over 183 languages!
 
-Designed by Jad Oubala
+Designed by Jad Oubala.
+
 Language functionality by Will Kaminski
+
 Testing by Sam Bradley
 
 **What it does:**
